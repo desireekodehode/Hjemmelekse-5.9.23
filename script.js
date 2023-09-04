@@ -22,16 +22,40 @@ Butikklapp.push("Dopapir")
 Butikklapp.pop(3, 7)
 console.log(Butikklapp.length);
 console.log(Butikklapp)
-Butikklapp[5];
+Butikklapp[4];
 
 console.log(Butikklapp);
 
-//// Oppgave 1.1 ////
+///****Oppgave 1.1**** *///////
 
 console.log(Butikklapp[5])
 
-//// Oppgave 2////
+///****Oppgave 2 */
+
+
+const setning = [
+        "Det",
+        "var",
+        "en",
+        "gang",
+]
+
+console.log(setning)
 
 
 
+
+
+
+
+let Number = 9;
+
+if (Number >= 9) {
+        console.log("Tallet er 9");
+
+} else {
+        console.log("Tallet er mindre enn 9");
+
+}
+console.log(Number)
 

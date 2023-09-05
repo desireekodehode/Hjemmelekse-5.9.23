@@ -16,7 +16,7 @@ const Butikklapp = [
         "Sjokolade",
 ];
 
-Butikklapp.pop(9)
+Butikklapp.pop()
 
 Butikklapp.push("Dopapir")
 Butikklapp.pop(3, 7)
@@ -33,29 +33,31 @@ console.log(Butikklapp[5])
 ///****Oppgave 2 */
 
 
-const setning = [
-        "Det",
-        "var",
-        "en",
-        "gang",
-]
-
-console.log(setning)
 
 
+const personsArray = [{
+
+        firstName: "Desiree",
+        lastName: "Bergstrøm",
+        Age: "36",
+},
 
 
+{
+        firstName: "Per",
+        lastName: "Strøm",
+        Age: "40",
 
-
-
-let Number = 9;
-
-if (Number >= 9) {
-        console.log("Tallet er 9");
-
-} else {
-        console.log("Tallet er mindre enn 9");
 
 }
-console.log(Number)
+]
+console.log(personsArray[1])
+console.log(personsArray[0]);
+
+
+
+function noe() {
+        consloge.log("Hallo")
+}
+noe()
 

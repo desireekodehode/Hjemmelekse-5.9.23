@@ -54,10 +54,28 @@ const personsArray = [{
 console.log(personsArray[1])
 console.log(personsArray[0]);
 
+///***Oppgave 3 ***////
+
+const numberOfgests = 3
+
+if (numberOfgests <= 10) {
+        console.log("Veldig labert med gjester")
+}
+else if (numberOfgests > 10 && numberOfgests <= 10) {
+        console.log("Hurra, du blir millionær!")
+}
+else {
+
+        console.log("Hurra, magisk!!")
+}
 
 
+
+
+////**Oppgave 4 *///
 function noe() {
-        consloge.log("Hallo")
+        console.log("Hallo")
 }
 noe()
+
 
